@@ -136,8 +136,6 @@ void Httpserver::start(void) {
 				std::string doc = readFile(HTTP_SERVER_TEMP_FILE_LOCATION);
 				std::string all = createHeader(doc.length(), TEXT_FILE) + doc;
 
-				std::cout << all << std::endl;
-
 				t.sendData(cli, all);
 				continue;
 			}
