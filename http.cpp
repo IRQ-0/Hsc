@@ -101,7 +101,7 @@ void Httpserver::start(void) {
 			this->lg.write(WARNING, "Accecpt client error");
 		}
 
-		std::cout << "Client connected from: " << sockinfo.clientsrcadress << " port: " << std::to_string(sockinfo.clientsrcport) << std::endl;
+		//std::cout << "Client connected from: " << sockinfo.clientsrcadress << " port: " << std::to_string(sockinfo.clientsrcport) << std::endl;
 
 		std::string buffer;
 		buffer.clear();
