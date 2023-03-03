@@ -11,7 +11,7 @@ Project developement is not planned now, but we will see what will happen in fut
 
 # Compilation:
 1. Make sure that you have ``G++`` compiler installed (https://gcc.gnu.org/) as well as downloaded MySQL development kit for C++ (https://dev.mysql.com/downloads/connector/cpp/)
-2. Open ``main.cpp`` file and configure lines from ``11`` to ``21``
+2. Open ``main.cpp`` file and configure lines from ``11`` to ``21``\
 Example configuration:\
 ``// Server configuration``\
 ``#define IP "127.0.0.1"`` -> Set IP address that server will listen on\
