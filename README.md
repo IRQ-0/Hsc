@@ -12,7 +12,7 @@ Project developement is not planned now, but we will see what will happen in fut
 # Compilation:
 1. Make sure that you have ``G++`` compiler installed (https://gcc.gnu.org/) as well as downloaded MySQL development kit for C++ (https://dev.mysql.com/downloads/connector/cpp/)
 2. Open ``main.cpp`` file and configure lines from ``11`` to ``21``
-Example configuration:
+Example configuration:\
 ``// Server configuration``\
 ``#define IP "127.0.0.1"`` -> Set IP address that server will listen on\
 ``#define PORT 8000`` -> Set port that server will listen on\
@@ -23,7 +23,7 @@ Example configuration:
 ``#define DB_PASSWORD "admin"`` -> Set MySQL password\
 ``#define DB_HOST "127.0.0.1"`` -> Set MySQL host\
 ``#define DB_DATABASE "testdb"`` -> Set MySQL database name\
-``#define DB_PORT 3306`` -> Set MySQL port\
+``#define DB_PORT 3306`` -> Set MySQL port
 3. Run ``make.bat`` file. If it pitints ``OK`` at the end, everything is done successfully (it will also run server).
 
 # DB configuartion
